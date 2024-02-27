@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.4.2.4
-Release:        2%{?dist}
+Release:        28%{?dist}
 Summary:        A modern RFC 4648-compliant Base64 library
 
 License:        BSD-3-Clause
@@ -117,6 +117,9 @@ dos2unix -k -n %{SOURCE1} %{pkg_name}.cabal
 
 
 %changelog
+* Wed Feb 28 2024 Jens Petersen <petersen@redhat.com> - 0.4.2.4-28
+- bump over pandoc
+
 * Fri May 12 2023 Jens Petersen <petersen@redhat.com> - 0.4.2.4-2
 - add doc files to devel
 
