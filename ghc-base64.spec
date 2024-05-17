@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.4.2.4
-Release:        28%{?dist}
+Release:        28.rvrebuild0%{?dist}
 Summary:        A modern RFC 4648-compliant Base64 library
 
 License:        BSD-3-Clause
